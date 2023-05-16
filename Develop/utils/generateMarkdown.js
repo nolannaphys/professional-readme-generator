@@ -12,7 +12,26 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.title} ![](https://img.shields.io/badge/LICENSE-${data.license}-BLUE)
+  ## Description
+
+  ## Table of Contents
+
+  ## Installation
+
+  ## Usage
+
+  ## Credits
+
+  ## License
+
+  ## Badges
+
+  ## Features
+
+  ## How to Contribute
+
+  ## Tests
 
 `;
 }
