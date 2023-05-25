@@ -8,32 +8,32 @@ const questions = [{
 
     type: 'input',
     message: 'What is your project called?',
-    name: 'Title'
+    name: 'title'
 },
 {
     type: 'input',
     message: 'How would you describe your project?',
-    name: 'Description'
+    name: 'description'
 },
 {
     type: 'input',
     message: 'How do you install your project?',
-    name: 'Installation'
+    name: 'installation'
 },
 {
     type: 'input',
     message: 'How do you use your project?',
-    name: 'Usage'
+    name: 'usage'
 },
 {
     type: 'input',
     message: 'What are the credits of your project?',
-    name: 'Credits'
+    name: 'credits'
 },
 {
     type: 'list',
     message: 'Which license did you use?',
-    name: 'License',
+    name: 'license',
     choices: [
         {
             name: 'Apache',
@@ -52,12 +52,12 @@ const questions = [{
 {
     type: 'input',
     message: 'What are the features of your project?',
-    name: 'Features'
+    name: 'features'
 },
 {
     type: 'input',
     message: 'How can others contribute to your project?',
-    name: 'How to Contribute'
+    name: 'contribution'
 },
 ];
 
