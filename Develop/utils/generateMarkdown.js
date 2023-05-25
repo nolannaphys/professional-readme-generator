@@ -73,9 +73,6 @@ ${features}
 
 ## How to Contribute 
 ${contribution}
-
-## Test
-${test}
 `;
 };
 
